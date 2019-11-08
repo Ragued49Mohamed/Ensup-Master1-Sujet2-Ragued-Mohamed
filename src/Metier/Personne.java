@@ -16,14 +16,14 @@ public class Personne {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Personne(int personneId, String nom, String prenom, String login, String motpass, Date dateNaissance) {
+	public Personne(int personneId, String nom, String prenom, String login, String motpass,Date DateNaissance) {
 		super();
 		PersonneId = personneId;
 		Nom = nom;
 		Prenom = prenom;
 		Login = login;
 		Motpass = motpass;
-		DateNaissance = dateNaissance;
+		DateNaissance = DateNaissance;
 	}
 	
 	public int getPersonneId() {
